@@ -4,4 +4,4 @@ os:
  - osx
  - linux
 
-script: printenv
+script: stty size
