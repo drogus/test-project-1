@@ -1,3 +1,3 @@
 sudo: false
 
-script: while [  $COUNTER -lt 20 ]; do echo -n "$COUNTER "; let COUNTER=COUNTER+1; sleep 20; done
+script: "while [  $COUNTER -lt 20 ]; do echo -n "$COUNTER "; let COUNTER=COUNTER+1; sleep 20; done"
