@@ -1,9 +1,8 @@
 addons:
-  postgresql: 9.3
+  postgresql: 9.2
 script:
   - createdb foo
   - psql -d foo -c 'SELECT version();'
   - psql --version
-  - sudo echo 'foo'
 
 sudo: false
