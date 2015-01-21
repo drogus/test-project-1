@@ -3,7 +3,7 @@ addons:
 script:
   - createdb foo
   - psql -d foo -c 'SELECT version();'
-  - psql -v
+  - psql --version
   - sudo echo 'foo'
 
 sudo: false
