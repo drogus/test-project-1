@@ -2,4 +2,4 @@ addons:
   postgresql: 9.3
 script: printenv
 
-sudo: false
+sudo: pgsql -v
