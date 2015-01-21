@@ -1,13 +1,5 @@
-os:
-  - osx
-  - linux
-
-install:
-  - test $TRAVIS_OS_NAME = "osx" && brew install nvm && source $(brew --prefix nvm)/nvm.sh || test $TRAVIS_OS_NAME = "linux"
-  - nvm install 0.10
-  - node --version
-  - npm --version
-  - nvm --version
-  
-
+addons:
+  postgresql: 9.3
 script: printenv
+
+sudo: false
