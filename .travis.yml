@@ -1,6 +1,7 @@
 addons:
   apt_packages:
-    - graphicsmagick
+    - libicu-dev
+    - cmake
 
 sudo: false
 
