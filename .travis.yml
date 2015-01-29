@@ -1,6 +1,6 @@
 addons:
   apt_packages:
-    - imagemagick
+    - graphicsmagick
 
 sudo: false
 
