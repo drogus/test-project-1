@@ -1,8 +1,7 @@
 addons:
-  postgresql: 9.2
-script:
-  - createdb foo
-  - psql -d foo -c 'SELECT version();'
-  - psql --version
+  apt_packages:
+    - imagemagick
 
 sudo: false
+
+script: echo 'foo'
