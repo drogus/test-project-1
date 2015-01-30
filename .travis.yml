@@ -1,8 +1,1 @@
-addons:
-  apt_packages:
-    - libicu-dev
-    - cmake
-
-sudo: false
-
 script: echo 'foo'
