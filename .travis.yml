@@ -1,2 +1,13 @@
-script: printenv
 sudo: false
+
+before_script:
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis McTravis"
+
+script:
+  - mkdir foo
+  - cd foo
+  - git init .
+  - touch foo
+  - git add .
+  - git commit -am "Initial commit"
