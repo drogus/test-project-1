@@ -1,21 +1,7 @@
-before_deploy:
-  - git clone -b master https://github.com/jasny/dpl.git /tmp/dpl
-  - pushd /tmp/dpl
-  - gem build dpl.gemspec
-  - popd
-  - cp /tmp/dpl/*.gem .
-  - pwd
-
-deploy:
-  provider: s3
-  edge: local
-  access_key_id: whatever
-  secret_access_key: whatever
-  region: eu-west-1
-  bucket_name: whatever
-  on:
-    branch: dpl
-
 sudo: false
+
+language: perl
+perl:
+  - "5.22"
 
 script: echo foo
