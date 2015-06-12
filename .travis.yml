@@ -15,3 +15,5 @@ deploy:
   bucket_name: whatever
   on:
     branch: dpl
+
+sudo: false
