@@ -17,3 +17,5 @@ deploy:
     branch: dpl
 
 sudo: false
+
+script: echo foo
