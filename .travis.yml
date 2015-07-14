@@ -1,2 +1,2 @@
-script: for i in {1..10000}; do; echo "$i"; done
+script: for i in {1..10000} do; echo "$i"; done
 sudo: false
