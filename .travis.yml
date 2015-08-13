@@ -1,1 +1,4 @@
+before_script: 
+  - source sauce_setup.sh
+  - travis_start_sauce_connect
 sudo: false
