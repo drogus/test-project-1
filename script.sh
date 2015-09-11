@@ -1,1 +1,1 @@
-echo FOO
+echo BAR
