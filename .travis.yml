@@ -1,5 +1,5 @@
 branches:
   only:
-    - master
+    - foo
 script: echo FOO
 sudo: false
