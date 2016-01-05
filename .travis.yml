@@ -1,5 +1,5 @@
-branches:
-  only:
-    - master
-script: echo FOO
 sudo: false
+
+script:
+  - ls /usr/local/phantomjs-2.0.0/bin
+  - find /usr -name "*phantom*"
