@@ -1,6 +1,9 @@
-sudo: required
-dist: trusty
+sudo: false
+dist: precise
 
-script:
-  - ls /usr/local/phantomjs-2.0.0/bin
-  - find /usr -name "*phantom*"
+addons:
+  apt:
+    packages:
+      - graphviz
+
+script: echo foo
