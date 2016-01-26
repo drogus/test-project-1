@@ -4,6 +4,7 @@ dist: precise
 addons:
   apt:
     packages:
-      - graphviz
+    - cmake
+    - time
 
 script: echo foo
