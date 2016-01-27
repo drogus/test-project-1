@@ -1,4 +1,3 @@
-sudo: required
-dist: trusty
+language: objective-c
 
-script: echo foo1
+script: rvm list
