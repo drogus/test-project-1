@@ -1,3 +1,4 @@
-sudo: false
+sudo: required
+dist: trusty
 
 script: echo foo1
