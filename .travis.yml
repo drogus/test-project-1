@@ -1,7 +1,6 @@
-sudo: false
+sudo: required
+dist: trusty
 
-script: echo foo
+rvm: 2.3.0
 
-branches:
-  except:
-    - /^[0-9]+\.[0-9]+\.[0-9]+$/
+script: bundler install
