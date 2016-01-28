@@ -1,7 +1,7 @@
-language: objective-c
-osx_image: xcode7.1
-cache:
-  bundler: true
-  cocoapods: true
+sudo: false
 
-script: rvm list
+script: echo foo
+
+branches:
+  except:
+    - /^[0-9]+\.[0-9]+\.[0-9]+$/
