@@ -1,7 +1,3 @@
-sudo: required
-dist: trusty
+sudo: false
 
-rvm: 2.3.0
-
-before_install:
-  - "bundle -v >/dev/null 2>&1 || gem install bundler"
+script: echo foo
