@@ -4,14 +4,6 @@ language: ruby
 os:
   - linux
 
-rvm:
-  - 2.0.0
-
 matrix:
   include:
     - rvm: 2.0.0
-      env: DB=mariadb55
-      addons:
-         mariadb: 5.5
-         hosts:
-           - mysql2gem.example.com
