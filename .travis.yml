@@ -10,5 +10,3 @@ matrix:
       env: DB=mariadb55
       addons:
          mariadb: 5.5
-         hosts:
-           - mysql2gem.example.com
