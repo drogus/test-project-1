@@ -3,9 +3,6 @@ language: ruby
 os:
   - linux
 
-rvm:
-  - 2.0.0
-
 matrix:
   include:
     - rvm: 2.0.0
