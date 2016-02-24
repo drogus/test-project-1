@@ -1,3 +1,16 @@
-sudo: false
+sudo: required
+language: ruby
+os:
+  - linux
 
-script: false
+rvm:
+  - 2.0.0
+
+matrix:
+  include:
+    - rvm: 2.0.0
+      env: DB=mariadb55
+      addons:
+         mariadb: 5.5
+         hosts:
+           - mysql2gem.example.com
