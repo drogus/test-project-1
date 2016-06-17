@@ -19,3 +19,5 @@ env:
 
 
 script: echo foo
+sudo: required
+dist: trusty
