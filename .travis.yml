@@ -1,23 +1,2 @@
-env:
-  - FOO=1
-  - FOO=2
-  - FOO=3
-  - FOO=4
-  - FOO=5
-  - FOO=6
-  - FOO=7
-  - FOO=8
-  - FOO=9
-  - FOO=10
-  - FOO=11
-  - FOO=12
-  - FOO=13
-  - FOO=14
-  - FOO=15
-  - FOO=16
-
-
-
 script: echo foo
-sudo: required
-dist: trusty
+sudo: false
