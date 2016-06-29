@@ -1,2 +1,2 @@
-script: echo foo
+script: travis_debug
 sudo: false
