@@ -1,2 +1,2 @@
-script: travis_debug
+script: rvm list
 sudo: false
