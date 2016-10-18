@@ -1,6 +1,5 @@
-script: echo foo
+script:
+  - sleep 10
+  - echo $i
+  - ps aux
 sudo: false
-
-env:
-  - FOO=1
-  - FOO=2
