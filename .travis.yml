@@ -1,5 +1,5 @@
 script:
-  - sleep 10
+  - sleep 10&
   - echo $!
   - ps aux
 sudo: false
