@@ -1,5 +1,6 @@
-script:
+before_script:
   - sleep 10&
-  - echo $!
+  - SERVER_PID=$!
+  - echo $SERVER_PID
   - ps aux
 sudo: false
