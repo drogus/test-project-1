@@ -1,2 +1,2 @@
-script: echo foo
+script: /bin/bash loop.sh
 sudo: false
