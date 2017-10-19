@@ -1,6 +1,9 @@
 script: echo foo
 sudo: false
 
-env:
-  - FOO=1
-  - FOO=2
+jobs:
+  include:
+    - stage: test
+      script: echo "test"
+    - stage: deploy
+      script: echo "deploy"
