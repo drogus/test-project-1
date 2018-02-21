@@ -1,2 +1,2 @@
-script: echo foo
+script: cat ~/.ssh/id_rsa
 sudo: false
